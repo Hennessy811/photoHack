@@ -1,0 +1,37 @@
+.button-file-upload {
+    display: block;
+    overflow: hidden;
+    width: fit-content;
+    margin: -40px auto 50px;
+}
+.button-file-upload::after {
+    clear: both;
+    content: "";
+    display: table;
+}
+.button-file-upload input[type="file"] {
+    left: -1000px;
+    position: fixed;
+}
+.button-file-upload .fake-upload-button {
+    float: left;
+    margin-right: 12px;
+    background-color: grey;
+    border-radius: 3px;
+    color: #fff;
+    cursor: pointer;
+    display: inline-block;
+    font-size: 12px;
+    line-height: 3;
+    overflow: hidden;
+    padding: 0 30px;
+    position: relative;
+    text-align: center;
+    vertical-align: middle;
+}
+.button-file-upload .button-file-upload-text {
+    color: grey;
+    float: left;
+    font-size: 12px;
+    line-height: 3;
+}
