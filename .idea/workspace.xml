@@ -2,9 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="92a4a011-2fca-4f89-b4de-13f77f978eb5" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/buttom.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/script.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/c2i.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gif/dist/gif.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gif/dist/gif.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gif/dist/gif.worker.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gif/dist/gif.worker.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gif/gifshot.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gifs/85f57e4db275f0c8260c6e117bd63901b4438984.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/script.js" beforeDir="false" afterPath="$PROJECT_DIR$/script.js" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -20,11 +27,10 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="276">
-              <caret line="12" column="43" selection-start-line="12" selection-start-column="43" selection-end-line="12" selection-end-column="43" />
+            <state relative-caret-position="536">
+              <caret line="94" column="33" selection-start-line="94" selection-start-column="27" selection-end-line="94" selection-end-column="33" />
               <folding>
                 <element signature="n#header#0;n#div#0;n#body#0;n#html#0;n#!!top" />
-                <element signature="n#section#0;n#section#0;n#div#0;n#body#0;n#html#0;n#!!top" />
                 <element signature="n#footer#0;n#div#0;n#body#0;n#html#0;n#!!top" />
               </folding>
             </state>
@@ -32,19 +38,13 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/buttom.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="92">
-              <caret line="4" column="14" selection-start-line="4" selection-start-column="14" selection-end-line="4" selection-end-column="14" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/script.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="46">
-              <caret line="2" column="29" selection-start-line="2" selection-start-column="29" selection-end-line="2" selection-end-column="29" />
+            <state relative-caret-position="456">
+              <caret line="102" column="59" selection-start-line="102" selection-start-column="59" selection-end-line="102" selection-end-column="59" />
+              <folding>
+                <element signature="e#855#908#0" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -65,15 +65,18 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/script.js" />
-        <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/buttom.css" />
+        <option value="$PROJECT_DIR$/index.html" />
+        <option value="$PROJECT_DIR$/script.js" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds" fullScreen="true">
     <option name="width" value="1680" />
     <option name="height" value="1050" />
+  </component>
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
@@ -86,6 +89,16 @@
             <path>
               <item name="photoHack" type="b2602c69:ProjectViewProjectNode" />
               <item name="photoHack" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="photoHack" type="b2602c69:ProjectViewProjectNode" />
+              <item name="photoHack" type="462c0819:PsiDirectoryNode" />
+              <item name="gif" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="photoHack" type="b2602c69:ProjectViewProjectNode" />
+              <item name="photoHack" type="462c0819:PsiDirectoryNode" />
+              <item name="gifs" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -101,6 +114,13 @@
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/gif" />
+      <recent name="$PROJECT_DIR$" />
+      <recent name="$PROJECT_DIR$/gifs" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -124,15 +144,16 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1561213553210</updated>
-      <workItem from="1561213555262" duration="706000" />
+      <workItem from="1561213555262" duration="14915000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="706000" />
+    <option name="totallyTimeSpent" value="14915000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1680" height="1050" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info id="Favorites" side_tool="true" />
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24954791" />
@@ -157,29 +178,55 @@
     <option name="version" value="1" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/script.js">
+    <entry file="file://$PROJECT_DIR$/buttom.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="46">
-          <caret line="2" column="29" selection-start-line="2" selection-start-column="29" selection-end-line="2" selection-end-column="29" />
+        <state relative-caret-position="92">
+          <caret line="4" column="14" selection-start-line="4" selection-start-column="14" selection-end-line="4" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gif/dist/gif.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="23">
+          <caret line="1" column="304" selection-start-line="1" selection-start-column="304" selection-end-line="1" selection-end-column="304" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/c2i.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="301">
+          <caret line="45" column="13" selection-start-line="45" selection-start-column="13" selection-end-line="45" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gif/gifshot.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="719">
+          <caret line="2843" column="4" selection-start-line="2843" selection-start-column="4" selection-end-line="2843" selection-end-column="4" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="276">
-          <caret line="12" column="43" selection-start-line="12" selection-start-column="43" selection-end-line="12" selection-end-column="43" />
+        <state relative-caret-position="536">
+          <caret line="94" column="33" selection-start-line="94" selection-start-column="27" selection-end-line="94" selection-end-column="33" />
           <folding>
             <element signature="n#header#0;n#div#0;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#section#0;n#section#0;n#div#0;n#body#0;n#html#0;n#!!top" />
             <element signature="n#footer#0;n#div#0;n#body#0;n#html#0;n#!!top" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/buttom.css">
+    <entry file="file://$PROJECT_DIR$/script.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="92">
-          <caret line="4" column="14" selection-start-line="4" selection-start-column="14" selection-end-line="4" selection-end-column="14" />
+        <state relative-caret-position="456">
+          <caret line="102" column="59" selection-start-line="102" selection-start-column="59" selection-end-line="102" selection-end-column="59" />
+          <folding>
+            <element signature="e#855#908#0" />
+          </folding>
         </state>
       </provider>
     </entry>

@@ -20,17 +20,18 @@
     <!-- Header -->
     <header id="header">
         <span class="avatar"><img src="images/avatar.jpg" alt=""/></span>
-        <h1>This is <strong>Visualize</strong>, a responsive site template designed by <a href="http://templated.co">TEMPLATED</a><br/>
-            and released for free under the Creative Commons License.</h1>
+        <h1>This is <strong>One Night Prototype</strong> demo, disruptive PhotoLab filter creators<br/>
+            inspired by PhotoHack.</h1>
         <ul class="icons">
-            <li><a href="#" class="icon style2 fa-twitter"><span class="label">Twitter</span></a></li>
-            <li><a href="#" class="icon style2 fa-facebook"><span class="label">Facebook</span></a></li>
-            <li><a href="#" class="icon style2 fa-instagram"><span class="label">Instagram</span></a></li>
-            <li><a href="#" class="icon style2 fa-500px"><span class="label">500px</span></a></li>
-            <li><a href="#" class="icon style2 fa-envelope-o"><span class="label">Email</span></a></li>
+            <!--<li><a href="#" class="icon style2 fa-twitter"><span class="label">Twitter</span></a></li>-->
+            <!--<li><a href="#" class="icon style2 fa-facebook"><span class="label">Facebook</span></a></li>-->
+            <!--<li><a href="#" class="icon style2 fa-instagram"><span class="label">Instagram</span></a></li>-->
+            <!--<li><a href="#" class="icon style2 fa-500px"><span class="label">500px</span></a></li>-->
+            <!--<li><a href="#" class="icon style2 fa-envelope-o"><span class="label">Email</span></a></li>-->
         </ul>
     </header>
 
+    <button id="domagic">do magic</button>
 
     <div class="upload">
         <label for="upload" class="button-file-upload">
@@ -41,47 +42,47 @@
     </div>
 
     <!-- Main -->
-    <section id="main">
+    <!--<section id="main">-->
 
-        <!-- Thumbnails -->
-        <section class="thumbnails">
-            <div>
-                <a href="gifs/gif-2019-16-22-17-16-53.gif">
-                    <img src="gifs/gif-2019-16-22-17-16-53.gif" alt=""/>
-                    <h3>Lorem ipsum dolor sit amet</h3>
-                </a>
-                <a href="gifs/gif-2019-20-22-17-20-42.gif">
-                    <img src="gifs/gif-2019-20-22-17-20-42.gif" alt=""/>
-                    <h3>Lorem ipsum dolor sit amet</h3>
-                </a>
-            </div>
-            <div>
-                <a href="images/fulls/03.jpg">
-                    <img src="images/thumbs/03.jpg" alt=""/>
-                    <h3>Lorem ipsum dolor sit amet</h3>
-                </a>
-                <a href="images/fulls/04.jpg">
-                    <img src="images/thumbs/04.jpg" alt=""/>
-                    <h3>Lorem ipsum dolor sit amet</h3>
-                </a>
-                <a href="images/fulls/05.jpg">
-                    <img src="images/thumbs/05.jpg" alt=""/>
-                    <h3>Lorem ipsum dolor sit amet</h3>
-                </a>
-            </div>
-            <div>
-                <a href="images/fulls/06.jpg">
-                    <img src="images/thumbs/06.jpg" alt=""/>
-                    <h3>Lorem ipsum dolor sit amet</h3>
-                </a>
-                <a href="images/fulls/07.jpg">
-                    <img src="images/thumbs/07.jpg" alt=""/>
-                    <h3>Lorem ipsum dolor sit amet</h3>
-                </a>
-            </div>
-        </section>
+        <!--&lt;!&ndash; Thumbnails &ndash;&gt;-->
+        <!--<section class="thumbnails">-->
+            <!--<div>-->
+                <!--<a href="gifs/gif-2019-16-22-17-16-53.gif">-->
+                    <!--<img src="gifs/gif-2019-16-22-17-16-53.gif" alt=""/>-->
+                    <!--<h3>Lorem ipsum dolor sit amet</h3>-->
+                <!--</a>-->
+                <!--<a href="gifs/gif-2019-20-22-17-20-42.gif">-->
+                    <!--<img src="gifs/gif-2019-20-22-17-20-42.gif" alt=""/>-->
+                    <!--<h3>Lorem ipsum dolor sit amet</h3>-->
+                <!--</a>-->
+            <!--</div>-->
+            <!--<div>-->
+                <!--<a href="gifs/85f57e4db275f0c8260c6e117bd63901b4438984.gif">-->
+                    <!--<img src="gifs/85f57e4db275f0c8260c6e117bd63901b4438984.gif" alt=""/>-->
+                    <!--<h3>Lorem ipsum dolor sit amet</h3>-->
+                <!--</a>-->
+                <!--<a href="images/fulls/04.jpg">-->
+                    <!--<img src="images/thumbs/04.jpg" alt=""/>-->
+                    <!--<h3>Lorem ipsum dolor sit amet</h3>-->
+                <!--</a>-->
+                <!--<a href="images/fulls/05.jpg">-->
+                    <!--<img src="images/thumbs/05.jpg" alt=""/>-->
+                    <!--<h3>Lorem ipsum dolor sit amet</h3>-->
+                <!--</a>-->
+            <!--</div>-->
+            <!--<div>-->
+                <!--<a href="images/fulls/06.jpg">-->
+                    <!--<img src="images/thumbs/06.jpg" alt=""/>-->
+                    <!--<h3>Lorem ipsum dolor sit amet</h3>-->
+                <!--</a>-->
+                <!--<a href="images/fulls/07.jpg">-->
+                    <!--<img src="images/thumbs/07.jpg" alt=""/>-->
+                    <!--<h3>Lorem ipsum dolor sit amet</h3>-->
+                <!--</a>-->
+            <!--</div>-->
+        <!--</section>-->
 
-    </section>
+    <!--</section>-->
 
     <!-- Footer -->
     <footer id="footer">
@@ -91,11 +92,17 @@
 
 </div>
 
+<canvas class="canvas" id="canvas" width="500" height="500"></canvas>
+
 <!-- Scripts -->
 <script src="assets/js/jquery.min.js"></script>
 <script src="assets/js/jquery.poptrox.min.js"></script>
 <script src="assets/js/skel.min.js"></script>
 <script src="assets/js/main.js"></script>
+<script src="c2i.js"></script>
+<script src="gif/gifshot.js"></script>
+<!--<script src="gif/dist/gif.js"></script>-->
+<!--<script src="gif/dist/gif.worker.js"></script>-->
 <script src="script.js"></script>
 </body>
 </html>
